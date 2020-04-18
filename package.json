@@ -71,7 +71,7 @@
     "strip-ansi": "^6.0.0",
     "style-loader": "^0.19.1",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.9.0"
   },
   "resolutions": {
