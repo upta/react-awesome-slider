@@ -177,6 +177,11 @@ export default function AutoplayHoc(WrappedComponent) {
 
     forceClearBar(info) {
       const bar = this.getBarFromSlide(info.currentSlide);
+      
+      if (!bar)
+      {
+        return;
+      }
       this.restartBarAnimation(bar);
     }
 
